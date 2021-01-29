@@ -1,4 +1,4 @@
-# probook_450_g7
+# HP ProBook 450 G7
 
 OC-Folder for HP ProBook 450 G7
 
