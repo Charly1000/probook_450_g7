@@ -1,0 +1,135 @@
+20:552  5:562  Found UEFI Acpi 2.0 RSDP at b3b4e014
+20:552  0:000  Saving ACPI tables from RSDP b3b4e014 to ACPI\origin ...
+20:552  0:000   b3b4e014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+20:721  0:168    (Xsdt: b3afc188, Rsdt: b3afc0c4)
+20:721  0:000    b3afc188: 'XSDT', 'SLIC-BPC', Rev: 1, Len: 308 -> XSDT.aml
+20:923  0:202    b3afc0c4: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 172 -> RSDT.aml
+21:077  0:154    Tables in Xsdt: 34
+21:077  0:000    0. b3b31000: 'FACP', 'SLIC-BPC', Rev: 6, Len: 276 -> FACP.aml
+21:271  0:193        (Dsdt: B3B06000, Facs: B3A78000, XDsdt: b3b06000, XFacs: 0)
+21:271  0:000        b3b06000: 'DSDT', '86A0', Rev: 2, Len: 163057 -> DSDT.aml
+21:445  0:173        b3a78000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+21:640  0:194    1. b3b4c000: 'SSDT', 'NVTEC', Rev: 1, Len: 727 -> SSDT-0-NVTEC.aml
+21:785  0:145    2. b3b4b000: 'SSDT', 'ShmTable', Rev: 2, Len: 298 -> SSDT-1-ShmTable.aml
+21:994  0:208    3. b3b48000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 8365 -> SSDT-2-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+22:121  0:127        * 3013857688: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1442  53 53 44 54 A2 05 00 00 02 A8 50 6D 52 65 66 00 Internal length = 1442 -> SSDT-x2_0-Cpu0Ist.aml
+22:256  0:134        * 3013447704: 'SSDT', 'ApIst', Rev: 2, Len: 1912  53 53 44 54 78 07 00 00 02 6A 50 6D 52 65 66 00 Internal length = 1912 -> SSDT-x2_1-ApIst.aml
+22:448  0:191        * 3013439512: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x2_2-Cpu0Cst.aml
+22:577  0:129        * 3013450392: 'SSDT', 'ApCst', Rev: 2, Len: 970  53 53 44 54 CA 03 00 00 02 A6 50 6D 52 65 66 00 Internal length = 970 -> SSDT-x2_3-ApCst.aml
+22:743  0:165        * 3013859736: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 364  53 53 44 54 6C 01 00 00 02 87 50 6D 52 65 66 00 Internal length = 364 -> SSDT-x2_4-Cpu0Hwp.aml
+22:874  0:131        * 3013860376: 'SSDT', 'ApHwp', Rev: 2, Len: 983  53 53 44 54 D7 03 00 00 02 28 50 6D 52 65 66 00 Internal length = 983 -> SSDT-x2_5-ApHwp.aml
+23:006  0:132        * 3013451800: 'SSDT', 'HwpLvt', Rev: 2, Len: 3050  53 53 44 54 EA 0B 00 00 02 68 50 6D 52 65 66 00 Internal length = 3050 -> SSDT-x2_6-HwpLvt.aml
+23:142  0:135        * 3013859352: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 252  53 53 44 54 FC 00 00 00 02 E0 50 6D 52 65 66 00 Internal length = 252 -> SSDT-x2_7-Cpu0Psd.aml
+23:270  0:128        * 3013443608: 'SSDT', 'ApPsd', Rev: 2, Len: 3362  53 53 44 54 22 0D 00 00 02 C9 50 6D 52 65 66 00 Internal length = 3362 -> SSDT-x2_8-ApPsd.aml
+23:437  0:166  
+23:437  0:000    4. b3b47000: 'SSDT', 'CtdpB', Rev: 2, Len: 3577 -> SSDT-3-CtdpB.aml
+23:577  0:139    5. b3b3a000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 52866 -> SSDT-4-PLT_RTD3.aml
+23:720  0:143    6. b3b39000: 'RTMA', '_HBMART_', Rev: 1, Len: 158 -> RTMA.aml
+23:869  0:149    7. b3b37000: 'SSDT', 'UcsiAcpi', Rev: 2, Len: 5493 -> SSDT-5-UcsiAcpi.aml
+24:024  0:154    8. b3b36000: 'SSDT', 'UcsiCntr', Rev: 2, Len: 251 -> SSDT-6-UcsiCntr.aml
+24:164  0:139    9. b3b34000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85 -> MSDM.aml
+24:304  0:140    10. b3b33000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374 -> SLIC.aml
+24:446  0:142    11. b3b32000: 'WSMT', '86A0', Rev: 1, Len: 40 -> WSMT.aml
+24:609  0:162    12. b3b30000: 'HPET', '86A0', Rev: 1, Len: 56 -> HPET.aml
+24:742  0:133    13. b3b2f000: 'APIC', '86A0', Rev: 3, Len: 356 -> APIC.aml
+24:871  0:129    14. b3b2e000: 'MCFG', '86A0', Rev: 1, Len: 60 -> MCFG.aml
+24:971  0:099    15. b3b05000: 'SSDT', 'PtidDevc', Rev: 2, Len: 1862 -> SSDT-7-PtidDevc.aml
+25:038  0:067    16. b3b04000: 'SSDT', 'HP_XHC_P', Rev: 2, Len: 2049 -> SSDT-8-HP_XHC_P.aml
+25:104  0:065    17. b3b02000: 'NHLT', 'CML', Rev: 0, Len: 6128 -> NHLT.aml
+25:169  0:065    18. b3afe000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12601 -> SSDT-9-SaSsdt.aml
+25:236  0:067    19. b3afd000: 'LPIT', 'CML', Rev: 1, Len: 148 -> LPIT.aml
+25:305  0:068    20. b3b4d000: 'WSMT', 'CML', Rev: 1, Len: 40 -> WSMT.aml
+25:412  0:106    21. b3afb000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1531 -> SSDT-10-Tpm2Tabl.aml
+25:495  0:083    22. b3afa000: 'TPM2', 'CML', Rev: 4, Len: 52 -> TPM2.aml
+25:562  0:066    23. b3af9000: 'OEML', 'CML', Rev: 3, Len: 40 -> OEML.aml
+25:628  0:066    24. b3af5000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15655 -> SSDT-11-DptfTabl.aml
+25:697  0:068    25. b3af4000: 'SSDT', 'HPINWWAN', Rev: 1, Len: 2081 -> SSDT-12-HPINWWAN.aml
+25:763  0:066    26. b3af3000: 'SSDT', 'HPNBCONV', Rev: 1, Len: 315 -> SSDT-13-HPNBCONV.aml
+25:864  0:101    27. b3af2000: 'SSDT', 'INTTPL', Rev: 1, Len: 1063 -> SSDT-14-INTTPL.aml
+25:949  0:084    28. b3af0000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 7149 -> SSDT-15-HPINNBWL.aml
+26:015  0:065    29. b3aef000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50 -> SSDT-16-HPCONDEV.aml
+26:082  0:067    30. b3aee000: 'SSDT', 'HPCAHWID', Rev: 1, Len: 105 -> SSDT-17-HPCAHWID.aml
+26:148  0:065    31. b3aed000: 'BGRT', 'CML', Rev: 1, Len: 56 -> BGRT.aml
+26:215  0:066    32. b3b35000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761 -> SSDT-18-PwrCtlEv.aml
+26:281  0:066    33. b3aec000: 'FPDT', 'CML', Rev: 1, Len: 68 -> FPDT.aml
+26:349  0:067    Tables in Rsdt: 34
+26:349  0:000    0. b3b31000: 'FACP', 'SLIC-BPC', Rev: 6, Len: 276
+26:349  0:000        (Dsdt: B3B06000, Facs: B3A78000, XDsdt: b3b06000, XFacs: 0)
+26:349  0:000        b3b06000: 'DSDT', '86A0', Rev: 2, Len: 163057
+26:355  0:005        b3a78000: 'FACS', Ver: 2, Len: 64
+26:355  0:000    1. b3b4c000: 'SSDT', 'NVTEC', Rev: 1, Len: 727
+26:355  0:000    2. b3b4b000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+26:355  0:000    3. b3b48000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 8365
+26:355  0:000    4. b3b47000: 'SSDT', 'CtdpB', Rev: 2, Len: 3577
+26:355  0:000    5. b3b3a000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 52866
+26:355  0:000    6. b3b39000: 'RTMA', '_HBMART_', Rev: 1, Len: 158
+26:355  0:000    7. b3b37000: 'SSDT', 'UcsiAcpi', Rev: 2, Len: 5493
+26:355  0:000    8. b3b36000: 'SSDT', 'UcsiCntr', Rev: 2, Len: 251
+26:355  0:000    9. b3b34000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+26:355  0:000    10. b3b33000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374
+26:355  0:000    11. b3b32000: 'WSMT', '86A0', Rev: 1, Len: 40
+26:355  0:000    12. b3b30000: 'HPET', '86A0', Rev: 1, Len: 56
+26:355  0:000    13. b3b2f000: 'APIC', '86A0', Rev: 3, Len: 356
+26:355  0:000    14. b3b2e000: 'MCFG', '86A0', Rev: 1, Len: 60
+26:355  0:000    15. b3b05000: 'SSDT', 'PtidDevc', Rev: 2, Len: 1862
+26:355  0:000    16. b3b04000: 'SSDT', 'HP_XHC_P', Rev: 2, Len: 2049
+26:355  0:000    17. b3b02000: 'NHLT', 'CML', Rev: 0, Len: 6128
+26:355  0:000    18. b3afe000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12601
+26:355  0:000    19. b3afd000: 'LPIT', 'CML', Rev: 1, Len: 148
+26:355  0:000    20. b3b4d000: 'WSMT', 'CML', Rev: 1, Len: 40
+26:355  0:000    21. b3afb000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1531
+26:355  0:000    22. b3afa000: 'TPM2', 'CML', Rev: 4, Len: 52
+26:355  0:000    23. b3af9000: 'OEML', 'CML', Rev: 3, Len: 40
+26:355  0:000    24. b3af5000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15655
+26:355  0:000    25. b3af4000: 'SSDT', 'HPINWWAN', Rev: 1, Len: 2081
+26:355  0:000    26. b3af3000: 'SSDT', 'HPNBCONV', Rev: 1, Len: 315
+26:355  0:000    27. b3af2000: 'SSDT', 'INTTPL', Rev: 1, Len: 1063
+26:355  0:000    28. b3af0000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 7149
+26:355  0:000    29. b3aef000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50
+26:355  0:000    30. b3aee000: 'SSDT', 'HPCAHWID', Rev: 1, Len: 105
+26:355  0:000    31. b3aed000: 'BGRT', 'CML', Rev: 1, Len: 56
+26:355  0:000    32. b3b35000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761
+26:355  0:000    33. b3aec000: 'FPDT', 'CML', Rev: 1, Len: 68
+26:355  0:000  Found UEFI Acpi 1.0 RSDP at b3b4e000
+26:355  0:000  Printing ACPI tables from RSDP b3b4e000 ...
+26:355  0:000   b3b4e000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+26:355  0:000    (Rsdt: b3afc000)
+26:355  0:000    b3afc000: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 172
+26:355  0:000    Tables in Rsdt: 34
+26:355  0:000    0. b3b31000: 'FACP', 'SLIC-BPC', Rev: 6, Len: 276
+26:355  0:000        (Dsdt: B3B06000, Facs: B3A78000, XDsdt: b3b06000, XFacs: 0)
+26:355  0:000        b3b06000: 'DSDT', '86A0', Rev: 2, Len: 163057
+26:361  0:006        b3a78000: 'FACS', Ver: 2, Len: 64
+26:361  0:000    1. b3b4c000: 'SSDT', 'NVTEC', Rev: 1, Len: 727
+26:361  0:000    2. b3b4b000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+26:361  0:000    3. b3b48000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 8365
+26:361  0:000    4. b3b47000: 'SSDT', 'CtdpB', Rev: 2, Len: 3577
+26:361  0:000    5. b3b3a000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 52866
+26:361  0:000    6. b3b39000: 'RTMA', '_HBMART_', Rev: 1, Len: 158
+26:361  0:000    7. b3b37000: 'SSDT', 'UcsiAcpi', Rev: 2, Len: 5493
+26:361  0:000    8. b3b36000: 'SSDT', 'UcsiCntr', Rev: 2, Len: 251
+26:361  0:000    9. b3b34000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+26:361  0:000    10. b3b33000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374
+26:361  0:000    11. b3b32000: 'WSMT', '86A0', Rev: 1, Len: 40
+26:361  0:000    12. b3b30000: 'HPET', '86A0', Rev: 1, Len: 56
+26:361  0:000    13. b3b2f000: 'APIC', '86A0', Rev: 3, Len: 356
+26:361  0:000    14. b3b2e000: 'MCFG', '86A0', Rev: 1, Len: 60
+26:361  0:000    15. b3b05000: 'SSDT', 'PtidDevc', Rev: 2, Len: 1862
+26:361  0:000    16. b3b04000: 'SSDT', 'HP_XHC_P', Rev: 2, Len: 2049
+26:361  0:000    17. b3b02000: 'NHLT', 'CML', Rev: 0, Len: 6128
+26:361  0:000    18. b3afe000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12601
+26:361  0:000    19. b3afd000: 'LPIT', 'CML', Rev: 1, Len: 148
+26:361  0:000    20. b3b4d000: 'WSMT', 'CML', Rev: 1, Len: 40
+26:361  0:000    21. b3afb000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1531
+26:361  0:000    22. b3afa000: 'TPM2', 'CML', Rev: 4, Len: 52
+26:361  0:000    23. b3af9000: 'OEML', 'CML', Rev: 3, Len: 40
+26:361  0:000    24. b3af5000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15655
+26:361  0:000    25. b3af4000: 'SSDT', 'HPINWWAN', Rev: 1, Len: 2081
+26:361  0:000    26. b3af3000: 'SSDT', 'HPNBCONV', Rev: 1, Len: 315
+26:361  0:000    27. b3af2000: 'SSDT', 'INTTPL', Rev: 1, Len: 1063
+26:361  0:000    28. b3af0000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 7149
+26:361  0:000    29. b3aef000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50
+26:361  0:000    30. b3aee000: 'SSDT', 'HPCAHWID', Rev: 1, Len: 105
+26:361  0:000    31. b3aed000: 'BGRT', 'CML', Rev: 1, Len: 56
+26:361  0:000    32. b3b35000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761
+26:361  0:000    33. b3aec000: 'FPDT', 'CML', Rev: 1, Len: 68
