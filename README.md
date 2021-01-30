@@ -1,5 +1,8 @@
 # HP ProBook 450 G7
 
+Running MacOS Big Sur.
+So Catalina should also work.
+
 OC-Folder for HP ProBook 450 G7
 
 CPU: i7-10510U
