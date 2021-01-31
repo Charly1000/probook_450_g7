@@ -63,13 +63,17 @@
 						<data>
 						AgAAAA==
 						</data>
+						<key>name</key>
+						<string>WCAM</string>
 					</dict>
 					<key>HS03</key>
 					<dict>
+						<key>Comment</key>
+						<string>internal IR sensors</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>name</key>
-						<string>HS03</string>
+						<string>IRMC</string>
 						<key>port</key>
 						<data>
 						AwAAAA==
