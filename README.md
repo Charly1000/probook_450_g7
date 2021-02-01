@@ -11,7 +11,7 @@ So Catalina should also work
 - CPU: i7-10510U
 - RAM: 32GB DDR4 Crucial
 - iGPU, no dGPU
-- AX201 WLAN/BT
+- Intel AX201 WLAN/BT
 - NVME PCIe 3.0 SSD Crucial
 
 
