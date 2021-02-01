@@ -5,9 +5,12 @@ So Catalina should also work.
 
 OC-Folder for HP ProBook 450 G7
 
-CPU: i7-10510U
-RAM: 32GB DDR4
-iGPU, no dGPU
+- CPU: i7-10510U
+- RAM: 32GB DDR4 Crucial
+- iGPU, no dGPU
+- AX201 WLAN/BT
+- NVME PCIe 3.0 SSD Crucial
+
 
 what work:
 - CPU with power management
