@@ -3,12 +3,11 @@
 Running MacOS Big Sur.
 So Catalina should also work
 
-You have two choices:
----------------------
+## You have two choices:
 - OC-folder: use only with SSDT injects and renames
 - DSDT-folder: use only with one patched DSDT, like a real Mac
 
-Hardware Specs:
+### Hardware Specs:
 - CPU: i7-10510U
 - RAM: 32GB DDR4 Crucial
 - iGPU, no dGPU
@@ -16,7 +15,7 @@ Hardware Specs:
 - NVME PCIe 3.0 SSD Crucial
 
 
-what work:
+### what work:
 - CPU with power management
 - GPU full acceleration
 - all USB-Ports
@@ -32,7 +31,7 @@ what work:
 - after approx. 3 hours of idle operation with 100% backlight brightness, the battery is at approx 50%.
 
 
-dont work:
+### dont work:
 - Webcam/IR-Sensors - with SSDT-INT_USB.aml I tried to insert..
 - SD-Cardreader
 - internal microphone.. in Windows device-manager my microphone is not a realtek, it's a intel.
