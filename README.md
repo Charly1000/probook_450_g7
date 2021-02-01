@@ -22,7 +22,7 @@ what work:
 - Bluetooth
 - WLAN
 - AirPlay
-     
+- after approx. 3 hours of idle operation with 100% backlight brightness, the battery is at approx 50%.
 
 
 dont work:
