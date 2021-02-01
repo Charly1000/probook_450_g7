@@ -4,8 +4,8 @@ Running MacOS Big Sur.
 So Catalina should also work
 
 ## You have two choices:
-- OC-folder: use only with SSDT injects and renames
-- DSDT-folder: use only with one patched DSDT, like a real Mac
+ - OC-folder: use only with SSDT injects and renames
+ - DSDT/OC-folder: use only with one patched DSDT, like a real Mac
 
 ### Hardware Specs:
 - CPU: i7-10510U
