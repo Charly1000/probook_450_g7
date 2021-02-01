@@ -3,8 +3,9 @@
 Running MacOS Big Sur.
 So Catalina should also work.
 
-OC-Folder for HP ProBook 450 G7
+OC-Folder for HP ProBook 450 G7 to boot MacOS
 
+Hardware Specs:
 - CPU: i7-10510U
 - RAM: 32GB DDR4 Crucial
 - iGPU, no dGPU
