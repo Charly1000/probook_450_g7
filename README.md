@@ -1,9 +1,12 @@
 # HP ProBook 450 G7
 
 Running MacOS Big Sur.
-So Catalina should also work.
+So Catalina should also work
 
-OC-Folder for HP ProBook 450 G7 to boot MacOS
+
+- you have tow choices:
+-- OC-folder: use only with SSDT injects and renames
+-- DSDT-folder: use only with one patched DSDT, like a real Mac
 
 Hardware Specs:
 - CPU: i7-10510U
@@ -33,7 +36,7 @@ dont work:
 - Webcam/IR-Sensors - with SSDT-INT_USB.aml I tried to insert..
 - SD-Cardreader
 - internal microphone.. in Windows device-manager my microphone is not a realtek, it's a intel.
-- sidecar - I think that's a Intel-Kext problem. If you have another WiFi-Card it should work.
+- Sidecar - I think that's a Intel-Kext problem. If you have another WiFi-Card it should work.
 
 
 don't forget to change "PlatformInfo" in OC-config with your own data for MacBookPro15,4.
