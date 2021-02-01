@@ -36,7 +36,7 @@ dont work:
 - sidecar - I think that's a Intel-Kext problem. If you have another WiFi-Card it should work.
 
 
-don't forget to change "PlatformInfo" in OC-config with your own data.
+don't forget to change "PlatformInfo" in OC-config with your own data for MacBookPro15,4.
 
 
 try and have fun.
