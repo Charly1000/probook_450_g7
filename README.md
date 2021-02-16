@@ -3,9 +3,10 @@
 Running MacOS Big Sur.
 So Catalina should also work
 
-## You have two choices:
- - OC-folder: use only with SSDT injects and renames
- - DSDT/OC-folder: use only with one patched DSDT, like a real Mac
+## You have three options:
+ - 01 - EFI-folder to boot with as little as possible ACPI folder
+ - 02 - EFI-folder to boot with a DSDT
+ - 03 - EFI-folder to boot with separate SSDTs (my own choice)
 
 ### Hardware Specs:
 - CPU: i7-10510U
@@ -29,6 +30,7 @@ So Catalina should also work
 - WLAN
 - AirPlay
 - after approx. 3 hours of idle operation with 100% backlight brightness, the battery is at approx 50%.
+- temperature is about 45° to 50° all over time. Very silent fan.
 
 
 ### dont work:
