@@ -45,8 +45,4 @@ don't forget to change "PlatformInfo" in OC-config with your own data for MacBoo
 
 try and have fun.
 
-
-
-if there is someone who can help me solve the current problems, I am extremely glad
-You can contact me:
-https://www.hackintosh-forum.de/forum/thread/51816-hp-probook-450-g7-bitte-um-konfig-unterstützung/
+no supoort, i don't have this device anymore
