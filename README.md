@@ -45,4 +45,4 @@ don't forget to change "PlatformInfo" in OC-config with your own data for MacBoo
 
 try and have fun.
 
-no supoort, i don't have this device anymore
+no supoort, I no longer have this device.
